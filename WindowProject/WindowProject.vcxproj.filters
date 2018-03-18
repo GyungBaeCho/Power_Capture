@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ETC">
+      <UniqueIdentifier>{0d4e4111-d877-4624-bf0c-51a1cc58d9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFrame">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{e8f43ee8-8bd4-491b-ba3d-70b0d80a02df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundDeviceManager">
+      <UniqueIdentifier>{0c75b2bc-b126-4991-9a86-4c02e4d4aea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{ca874ddd-5475-4df6-999e-16236729db01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\WindowProject.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\normal_cursor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ETC\resource.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="ETC\stdafx.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="ETC\targetver.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Component.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Timer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SoundDeviceFrame\PolicyConfig.h">
+      <Filter>SoundDeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDeviceFrame\SoundDeviceManager.h">
+      <Filter>SoundDeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame\ApiFramework.h">
+      <Filter>MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame\D2DFramework.h">
+      <Filter>MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame\ScreenCaptureFramework.h">
+      <Filter>MainFrame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ETC\stdafx.cpp">
+      <Filter>ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Component.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Timer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundDeviceFrame\SoundDeviceManager.cpp">
+      <Filter>SoundDeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame\ApiFramework.cpp">
+      <Filter>MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame\D2DFramework.cpp">
+      <Filter>MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame\ScreenCaptureFramework.cpp">
+      <Filter>MainFrame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ETC\WindowProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

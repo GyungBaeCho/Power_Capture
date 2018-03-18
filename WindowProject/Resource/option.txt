@@ -1,0 +1,8 @@
+First_Execution
+0
+Directories
+C:\Users\xmfhv\Desktop\Captured\
+C:\Users\xmfhv\Desktop\Captured2\
+C:\Users\xmfhv\Desktop\Captured3\
+C:\Users\xmfhv\Desktop\Captured4\
+End
